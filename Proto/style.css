@@ -777,7 +777,9 @@ animation: float 3s ease-in-out infinite;
         width: 100%;
         height: 300px;
     }
-     
+       .pat{
+        height: 12cm;
+     }
 }
 
 @media (max-width: 768px) {
