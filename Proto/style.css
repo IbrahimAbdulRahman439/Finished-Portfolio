@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #6c63ff;
     --secondary-color: #4d44db;
@@ -236,6 +237,7 @@ section h1::after {
 
 .home-container{
     max-width: 2000px;
+    /* margin: 0 auto; */
     padding: 0 20px;
     margin-bottom: 3cm;
 }
@@ -761,6 +763,9 @@ animation: float 3s ease-in-out infinite;
     #home{
         margin-bottom: 4cm;
     }
+    #projects{
+        justify-self: center;
+    }
 }
 
 @media (max-width: 992px) {
@@ -805,6 +810,12 @@ animation: float 3s ease-in-out infinite;
         flex-direction: column;
         gap: 1rem;
         text-align: center;
+    }
+    #about{
+        margin-bottom: 15cm;
+    }
+    .pro{
+        font-size: small;
     }
 }
 
